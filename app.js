@@ -20,3 +20,12 @@ home.address.street = "4642 Crow St.";
 home.baths +=1;
 console.log(home.address);
 console.log("the number of baths = " + home.baths);
+console.log(home);
+
+function invokeFnc(aVariable){
+    aVariable();
+}
+
+invokeFnc(function(){
+    console.log("Hi!");
+});
